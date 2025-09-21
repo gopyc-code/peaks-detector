@@ -3,7 +3,7 @@
 ## About
 <img width="1620" height="425" alt="image" src="https://github.com/user-attachments/assets/1fe17988-7f0c-4b3d-badb-965df84e315b" />
 
-The project investigates a signal represented as a sum of harmonic functions with added noise. For convenience, the signal is discretized into a set of 1000 points. A peak is defined as a point where the value significantly exceeds those of neighboring points. Experiments show that the `scipy.signal.find_peaks` function does not always accurately classify peaks, so a fully connected neural network is proposed for peak detection. 
+The project investigates a signal represented as a sum of harmonic functions with added noise. For convenience, the signal is discretized into a set of 1000 points. A peak is defined as a point where the value significantly exceeds those of neighboring points. Experiments show that the `scipy.signal.find_peaks` function does not always accurately classify peaks, so a fully connected neural network is used for peak detection, as was proposed by V. D. Neverov.
 
 ## Project Structure
 - `peak_detection.ipynb` — Jupyter notebook containing code for generating signals, building the dataset, creating and training the neural network, and visualising peaks.
