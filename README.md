@@ -18,3 +18,6 @@ The project investigates a signal represented as a sum of harmonic functions wit
 - Implements a fully connected neural network that outputs a continuous array of length 1000 with values from 0 to 1 representing peak probabilities.
 - Uses MSE as the training and evaluation metric.
 - Provides visualization of true and predicted peaks.
+
+## Estimating the MSE
+The model was trained for 60 epochs and did not overfit, achieving a final MSE of 0.002730 for signals of 1000 points with an average of 17.5 peaks.
